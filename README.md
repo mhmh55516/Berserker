@@ -1,35 +1,30 @@
-# Berserker
+# hello-express
 
-针对Pentest或者CTF的一个fuzz payload项目。
+A server that serves a webpage, its resources, and some data
 
-## 特点
 
-* 整合了各种来源的payload，比如[*fuzzdb*](https://github.com/fuzzdb-project/fuzzdb),  [*fuzz*Dicts](https://github.com/TheKingOfDuck/fuzzDicts), [*ScanLists*](https://github.com/ring04h/ScanLists) 等
-* 个人在针对CTF、渗透测试等场景下的自建fuzz payload
+## Your Project
 
-## 使用
+On the front-end,
 
-可以考虑结合一下工具进行使用
+- Edit `views/index.html` to change the content of the webpage
+- `public/client.js` is the javacript that runs when you load the webpage
+- `public/style.css` is the styles for `views/index.html`
+- Drag in `assets`, like images or music, to add them to your project
 
-* Burp Suite
-* [wfuzz](https://github.com/xmendez/wfuzz)
-* [xray](https://github.com/chaitin/xray)
-* OWASP Zap
-* 自己开发针对性的fuzz脚本
-* 本人也开发了相应的fuzz工具随后也可能放出来
+On the back-end,
 
-不知道怎么使用的话可以参考下列项目：
+- your app starts at `server.js`
+- add frameworks and packages in `package.json`
+- safely store app secrets in `.env` (nobody can see this but you and people you invite)
 
-1.  [Payloads All The Things](https://github.com/swisskyrepo/PayloadsAllTheThings)
-2. [web fuzz attack](https://github.com/l3m0n/WebFuzzAttack)
+Click `Show` in the header to see your app live. Updates to your code will instantly deploy.
 
-## 致谢
 
-首先感谢各位师傅的整理和收集
+## Made by [Glitch](https://glitch.com/)
 
-因为这个我是逐渐更改的，很多来源都不太明确，所以先不加入明确的致谢
+**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
 
-## 其它
+Find out more [about Glitch](https://glitch.com/about).
 
-如有问题可以在 GitHub 提 issue
-
+( ᵔ ᴥ ᵔ )
